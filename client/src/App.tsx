@@ -17,7 +17,7 @@ function App(): JSX.Element {
     <div className='App'>
       <button onClick={onClose}>Закрыть</button>
       <p>1</p>
-    </div>
+    </div> 
   );
 }
 
