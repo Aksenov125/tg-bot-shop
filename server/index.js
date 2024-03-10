@@ -22,10 +22,10 @@ bot.on('message', async (msg) => {
         }
       })
   
-      await bot.sendMessage( chatId, '123', {
+      await bot.sendMessage( chatId, 'Заходи в наш интернет магазин', {
         reply_markup: {
           inline_keyboard: [
-            [{text: '1234', web_app:{url: webApp}}]
+            [{text: 'Сделать заказ', web_app:{url: webApp}}]
           ]
         }
       })
